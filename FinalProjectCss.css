@@ -1,0 +1,119 @@
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color: #FB0A11;
+	font-family: Impact, Charcoal, sans-serif;
+	color:white;
+}
+li{
+	float:left;
+	padding-left:13%;
+	margin:0.7%;
+
+}
+h1{
+	color:#FB0A11;	
+	font-size:100px;
+	font-weight: bolder;
+	font-family: Impact, Charcoal, sans-serif;
+	padding-left: 20px;
+
+}
+li {
+	display: block;
+	color:white;
+	text-align: center;
+	text-decoration:none;
+}
+hr{
+	border-top: 2px dashed red;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+a:active {
+  color: white;
+  text-decoration: none;
+}
+a{
+	font-weight: bold;
+}
+p{
+	
+	font-style: italic;
+}
+.discussion{
+		font-family: Impact, Charcoal, sans-serif;
+			font-size:20px;
+	color:#FB0A11;
+
+}
+
+h2,h3{
+	font-family: Impact, Charcoal, sans-serif;
+	font-size:35px;
+	color:white;
+	background-color: #FB0A11;
+	padding:10px;
+}
+
+/*
+Main Section: News;
+*/
+.divNews{	
+	float:right;
+}
+.imageNews{
+	float:right;
+	padding:2%;
+}
+.pNews{
+	padding:1.2%;
+	font-size:120%;
+	line-height:120%;
+}
+.frame{
+
+}
+/*
+Main Section 2: Game slae
+*/
+.divGame{
+	float:left;
+	padding:2.5%;
+	border-style: ridge;
+}
+.imgGame{
+	float:left;
+}
+.sidebar{
+	flex-flow: right;
+
+
+
+}
+.footer{
+	float:none;
+	text-align: center;
+}
+.btnCUs{
+	position: absolute;
+	left:2000px;
+	top:100px;
+	border-radius: 12px;
+	background-color: red;
+	color: white;
+	font-size: 20px;
+	font-family: Impact, Charcoal, sans-serif;
+}
